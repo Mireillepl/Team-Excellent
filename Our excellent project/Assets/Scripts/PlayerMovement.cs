@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Rigidbody rb;    
     bool moving = false;
     Vector3 destination;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -22,15 +23,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 moving = true;
                 destination = hit.point;
-                Debug.Log(hit.point);
             }
         }
         if (moving) {
             if (transform.position == destination) {
                 moving = false;
             } else {
-                float step = 10f * Time.deltaTime;
-                transform.position = Vector3.MoveTowards(transform.position, destination, step);;
+                rb.AddForce((destination - transform.position) * 0.5f);
             }
         }
     }

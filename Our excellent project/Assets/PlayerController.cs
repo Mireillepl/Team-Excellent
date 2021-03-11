@@ -12,8 +12,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //transform.position.Set(transform.position.x, 5, transform.position.z);
-
+        
         float horizontalMove = Input.GetAxisRaw("Horizontal");
         if (horizontalMove != 0)
         {
@@ -23,7 +22,7 @@ public class PlayerController : MonoBehaviour
         float verticalMove = Input.GetAxisRaw("Vertical");
         if (verticalMove != 0)
         {
-            transform.Translate(new Vector3(0, 0, -verticalMove) * 0.25f);
+            transform.Translate(new Vector3(0, 0, verticalMove) * 0.25f);
         }
 
         float mouseMovementX = Input.GetAxis("Mouse X");
@@ -31,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
         if (mouseMovementX != 0 || mouseMovementY != 0)
         {
-            transform.Rotate(new Vector3(mouseMovementY, mouseMovementX, 0));
+            transform.Rotate(new Vector3(-mouseMovementY, mouseMovementX, 0));
         }
     }
 }

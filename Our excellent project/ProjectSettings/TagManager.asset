@@ -7,6 +7,11 @@ TagManager:
   - Big
   - Small
   - Wall
+  - Fire
+  - itemKey
+  - doorLocked
+  - itemController
+  - zombie
   layers:
   - Default
   - TransparentFX

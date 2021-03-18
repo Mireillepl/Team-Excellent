@@ -1,0 +1,37 @@
+newmtl Ch10_body
+illum 7
+Kd 0.815686 0.815686 0.815686
+adobe_interior_color 0 0 0
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd zombi_1/Ch10_body_baseColor.png
+norm zombi_1/Ch10_body_normal.png
+
+newmtl Ch10_body1
+illum 7
+Kd 0.815686 0.815686 0.815686
+adobe_interior_color 0 0 0
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd zombi_1/Ch10_body1_baseColor.png
+norm zombi_1/Ch10_body1_normal.png

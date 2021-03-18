@@ -9,6 +9,8 @@ public class EnemyController : MonoBehaviour
     private bool patrolling = true;
     public Transform[] waypoints;
     private int currentWaypoint = 0;
+    public ZombieData data;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -19,16 +21,20 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Vector3.Distance(this.transform.position, player.transform.position) < data.lockRange)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            if (Vector3.Distance(this.transform.position, player.transform.position) < data.attackRange)
             {
-                agent.SetDestination(hit.point);
+                agent.SetDestination(this.transform.position);
+                LookAtPlayer();
+                Debug.Log("Attacl");
+            }
+            else
+            {
+                MoveToPlayer();
             }
         }
-        if (patrolling) 
+        else 
         {
             //Debug.Log(waypoints.Length);
             agent.SetDestination(waypoints[currentWaypoint].position);
@@ -44,5 +50,15 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
+    }
+
+    void MoveToPlayer() 
+    {
+        agent.SetDestination((this.transform.position + player.transform.position) /2.0f);
+    }
+    void LookAtPlayer()
+    {
+        Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - this.transform.position);
+        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, targetRotation, Time.deltaTime * data.rotSpeed);   
     }
 }

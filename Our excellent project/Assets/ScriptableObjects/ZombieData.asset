@@ -15,6 +15,6 @@ MonoBehaviour:
   speed: 5
   rotSpeed: 30
   attackRange: 2
-  lockRange: 4
+  lockRange: 10
   coolingDownTime: 3
   attackWindupTime: 2

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020aa1d9e69b84a45b85053f63f2bc6b, type: 3}
   m_Name: ZombieData
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 20
   rotSpeed: 30
   attackRange: 2
   lockRange: 10

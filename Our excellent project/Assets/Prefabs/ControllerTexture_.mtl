@@ -153,7 +153,7 @@ adobe_glow 0
 
 newmtl Plastic 19
 illum 7
-Kd 0.0588235 0.0509804 0.0509804
+Kd 0.058823 0.05098 0.05098
 adobe_interior_color 1 1 1
 Ni 1.5
 adobe_density 0

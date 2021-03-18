@@ -1,0 +1,40 @@
+newmtl Walnut Wood 6
+illum 7
+Kd 0 0 0
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+map_Pm Table3/Walnut Wood 6_metallic.jpg
+adobe_translucence 0
+map_Pr Table3/Walnut Wood 6_roughness.jpg
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd Table3/Walnut Wood 6_baseColor.jpg
+norm Table3/Walnut Wood 6_normal.jpg
+disp Table3/Walnut Wood 6_height.jpg
+map_d Table3/Walnut Wood 6_opacity.jpg
+
+newmtl Walnut Wood 5
+illum 7
+Kd 0.478431 0.4 0.298039
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+map_Pm Table3/Walnut Wood 5_metallic.jpg
+adobe_translucence 0
+map_Pr Table3/Walnut Wood 5_roughness.jpg
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+norm Table3/Walnut Wood 5_normal.jpg
+disp Table3/Walnut Wood 5_height.jpg
+map_d Table3/Walnut Wood 5_opacity.jpg

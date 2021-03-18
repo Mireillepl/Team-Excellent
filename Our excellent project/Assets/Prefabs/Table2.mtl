@@ -1,0 +1,33 @@
+newmtl initialShadingGroup
+illum 7
+Kd 0.5 0.5 0.5
+adobe_interior_color 1 1 1
+Ni 1
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Metal
+illum 7
+Kd 0.807843 0.807843 0.807843
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 1
+adobe_translucence 0
+Pr 0.75
+Ns 16
+Ks 1 1 1
+adobe_glow 0

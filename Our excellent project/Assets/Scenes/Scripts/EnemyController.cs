@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     private int currentWaypoint = 0;
     public ZombieData data;
     public GameObject player;
+    public float WanderpointDistance;
 
     // Start is called before the first frame update
     void Start()
@@ -30,14 +31,18 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
+                Debug.Log("movtoeplayer");
                 MoveToPlayer();
             }
         }
         else 
         {
-            //Debug.Log(waypoints.Length);
+            Debug.Log("wnder");
+            Debug.Log(currentWaypoint);
+            Debug.Log("Distance between point: " +Vector3.Distance(this.transform.position, waypoints[currentWaypoint].position));
+            Debug.Log("Goal " +waypoints[currentWaypoint].position);
             agent.SetDestination(waypoints[currentWaypoint].position);
-            if (Vector3.Distance(this.transform.position, waypoints[currentWaypoint].position) < 5.0f) 
+            if (Vector3.Distance(this.transform.position, waypoints[currentWaypoint].position) < WanderpointDistance) 
             {
                 if (currentWaypoint < waypoints.Length - 1)
                 {
@@ -53,7 +58,7 @@ public class EnemyController : MonoBehaviour
 
     void MoveToPlayer() 
     {
-        agent.SetDestination((this.transform.position + player.transform.position) /2.0f);
+        agent.SetDestination( player.transform.position);
     }
     void LookAtPlayer()
     {

@@ -1,0 +1,271 @@
+newmtl Plastic
+illum 7
+Kd 0.658824 0.152941 0.152941
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.71
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 17
+illum 7
+Kd 0.121569 0.121569 0.121569
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.89
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 16
+illum 7
+Kd 0.121569 0.121569 0.121569
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.89
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 9
+illum 7
+Kd 0.278431 0.278431 0.278431
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.84
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 15
+illum 7
+Kd 0.419608 0.419608 0.419608
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.51
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 6
+illum 7
+Kd 0.815686 0.815686 0.815686
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.51
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 8
+illum 7
+Kd 0.815686 0.815686 0.815686
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.029
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 12
+illum 7
+Kd 0.368627 0.368627 0.368627
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.5
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 3
+illum 7
+Kd 0.639216 0.184314 0.184314
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.71
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 19
+illum 7
+Kd 0.058823 0.05098 0.05098
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.32
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 7
+illum 7
+Kd 0.815686 0.815686 0.815686
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.029
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl initialShadingGroup
+illum 7
+Kd 0.5 0.5 0.5
+adobe_interior_color 1 1 1
+Ni 1
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.87
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 13
+illum 7
+Kd 0.368627 0.368627 0.368627
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.5
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 10
+illum 7
+Kd 0.380392 0.380392 0.380392
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.5
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 4
+illum 7
+Kd 0 0 0
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 1
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Plastic 5
+illum 7
+Kd 0 0 0
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 1
+Ns 16
+Ks 1 1 1
+adobe_glow 0

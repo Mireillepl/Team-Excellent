@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     NavMeshAgent agent;
-    private bool patrolling = true;
     public Transform[] waypoints;
     private int currentWaypoint = 0;
     public ZombieData data;
@@ -38,7 +37,7 @@ public class EnemyController : MonoBehaviour
         {
             //Debug.Log(waypoints.Length);
             agent.SetDestination(waypoints[currentWaypoint].position);
-            if (Vector3.Distance(this.transform.position, waypoints[currentWaypoint].position) < 30.0f) 
+            if (Vector3.Distance(this.transform.position, waypoints[currentWaypoint].position) < 5.0f) 
             {
                 if (currentWaypoint < waypoints.Length - 1)
                 {

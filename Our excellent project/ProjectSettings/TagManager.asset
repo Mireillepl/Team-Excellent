@@ -4,13 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - Enemy
-=======
   - Big
   - Small
   - Wall
->>>>>>> 6c24be0346adc02ebafb86e651a2ba4813de99fd
   layers:
   - Default
   - TransparentFX

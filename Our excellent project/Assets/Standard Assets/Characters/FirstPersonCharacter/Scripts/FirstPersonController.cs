@@ -271,6 +271,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (hit.collider.gameObject.tag == "itemKey")
             {
                 Debug.Log("hit key");
+                Destroy(hit.gameObject);
                 GameObject[] allDoors = GameObject.FindGameObjectsWithTag("doorLocked");
                 foreach (GameObject door in allDoors)
                 {
@@ -278,7 +279,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
             }
 
-            if (hit.collider.gameObject.tag == "zombie")
+            if (hit.collider.gameObject.tag == "Zombie")
             {
                 Debug.Log("hit enemy");
                 if (hasController)
